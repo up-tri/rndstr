@@ -11,6 +11,7 @@ do
     "A" ) FLG_LARGE="TRUE" ; PATTERN="${PATTERN}ABCDEFGHIJKLMNPQRSTUVWXYZ" ;;
     "m" ) FLG_MINUS="TRUE" ; PATTERN="${PATTERN}\-" ;;
     "u" ) FLG_UBAR="TRUE" ; PATTERN="${PATTERN}_" ;;
+    "l" ) FLG_LENGTH="TRUE" ; LEN=$OPTARG ;;
     "L" ) FLG_LENGTH="TRUE" ; LEN=$OPTARG ;;
     "C" ) FLG_COUNT="TRUE" ; CNT=$OPTARG ;;
   esac
